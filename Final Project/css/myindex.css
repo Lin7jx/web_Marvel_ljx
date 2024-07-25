@@ -1,0 +1,293 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-color:;
+	list-style: none;
+}
+
+#logo{
+	margin-top: 15px;
+	margin-left: 20px;
+	height: 60px;
+	width: 150px;
+	background-color:  #202020;
+}
+
+#log{
+	background-color: ;
+	float: right;
+	height: 60px;
+	width: 300px;
+	margin-top: -50px;
+	margin-left: 30px;
+}
+#login{
+	background-color:#ea2328;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px 2px #232;
+	width: 60px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 80px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#dhl{
+	height: 60px;
+	width: 1200px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-color:#0c0c0c;
+	position: relative;
+	z-index: 1;
+}
+#dhl_a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+#dhl_a_{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+#dhl_a_:hover{
+	color:white;
+}
+
+ul li{
+	float: left;
+	display:block;
+	height: 60px;
+	width: 200px;
+	margin-left: -1px;
+	position: relative;
+	text-align: center;
+	line-height: 55px;
+	border-left: 1px solid #313131;
+	border-right: 1px solid #313131;
+}
+ul li:hover{
+	background-color:#ea2328 ;
+}
+ul li ul{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+ul li:hover ul{
+	display: block;
+}
+ul li ul li{
+	height: 50px;
+	width: 180px;
+	float: none;
+	top: 20px;
+	text-align: left;
+	background-color: #f5f5f5;
+	border-bottom: 1px dotted #eaeaea;
+}
+
+
+#lgz{
+	float: left;
+	display:block;
+	height: 60px;
+	width: 120px;
+	margin-left: 0px;
+	position: relative;
+	text-align: center;
+	line-height: 60px;
+}
+#uni{
+	height: 50px;
+	width: 240px;
+	float: none;
+	top: 20px;
+	text-align: left;
+	
+}
+
+#lb-time{
+	height: 450px;
+	width: 1250px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-color:;
+	position: relative;
+}
+
+#lb{
+	height: 450px;
+	width: 800px;
+	float: left;
+	position: relative;
+	background-color:#ee1b24;
+}
+
+#time{
+	height: 450px;
+	width: 450px;
+	float: right;
+	margin-left: 0;
+	
+}
+
+#rwdhl{
+	width: 1200px;
+	height: 40px;
+	margin-top: 40px;
+	margin-left: 20px;
+	background-color:;
+}
+#zyrw{
+	float: left;
+	border-left:10px solid #ea2328;
+	height: 40px;
+	width: 90px;
+	line-height: 40px;
+	font-size: 20px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	padding-left: 10px;
+	color: black;
+	background-color: ;
+}
+#heng{
+	height: 15px;
+	width: 980px;
+	float: left;
+	margin-top: 14px;
+	background-color:#f5f5f5;
+}
+#gd{
+	float: right;
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 微软雅黑;
+	padding-right: 0;
+	border-right:10px solid #ea2328;
+	color: black;
+	background-color: ;
+}
+
+#man{
+	
+	height: 300px;
+	width: 1200px;
+	margin-left: 20px;
+	
+	
+}
+#im{
+	
+	height: 300px;
+	width: 275px;
+	margin-left: 25px;
+	float: left;
+	
+	border-right:3px dotted #f5f5f5;
+}
+#sm{
+	
+	height: 300px;
+	width: 275px;
+	margin-left: 25px;
+	float: left;
+	
+	border-right:3px dotted #f5f5f5;
+}
+#ca{
+	
+	height: 300px;
+	width: 275px;
+	margin-left: 25px;
+	float: left;
+	
+	border-right:3px dotted #f5f5f5;
+}
+#bw{
+	height: 300px;
+	width: 250px;
+	margin-left: 25px;
+	float: left;
+	
+}
+#hero{
+	height: 250px;
+	width: 230px;
+	margin-left: 10px;
+}
+
+#name{
+	margin-left: 80px;
+	margin-top: 0;
+	font-size: 30px;
+	font-family: 微软雅黑;
+	font-weight: bolder;
+	text-shadow: 2px 2px 2px #ea2328;
+	color: black;
+}
+
+#team{
+	
+	height: 700px;
+	width: 1200px;
+	margin-left: 20px;
+	
+}
+#fczlm{
+	
+	height: 350px;
+	width: 1200px;
+}
+#fczlm_left{
+	
+	height: 350px;
+	width: 595px;
+	float: left;
+	border-left: 5px dotted grey;
+}
+#fczlm_right{
+	
+	height: 350px;
+	width: 600px;
+	float: right;
+}
+#yhhwd{
+	
+	height: 350px;
+	width: 1200px;
+}
+#yhhwd_left{
+	
+	height: 350px;
+	width: 595px;
+	float: left;
+}
+#yhhwd_right{
+	
+	height: 350px;
+	width: 600px;
+	float: right;
+	border-right:5px dotted gray;
+}
+
+#end{
+	background: #dddddd;
+	height: 50px;
+	width: 1260px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+}

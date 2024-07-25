@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	background-color:;
+	list-style: none;
+}
+
+#logo{
+	margin-top: 15px;
+	margin-left: 20px;
+	height: 60px;
+	width: 150px;
+	background-color:  #202020;
+}
+
+#dhl{
+	height: 60px;
+	width: 1200px;
+	margin-left: 20px;
+	margin-top: 10px;
+	background-color:#0c0c0c;
+	position: relative;
+	z-index: 1;
+}
+#dhl_a{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+#dhl_a_{
+	text-decoration: none;
+	color: black;
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: 微软雅黑;
+}
+#dhl_a_:hover{
+	color:white;
+}
+
+ul li{
+	float: left;
+	display:block;
+	height: 60px;
+	width: 200px;
+	margin-left: -1px;
+	position: relative;
+	text-align: center;
+	line-height: 55px;
+	border-left: 1px solid #313131;
+	border-right: 1px solid #313131;
+}
+ul li:hover{
+	background-color:#ea2328 ;
+}
+ul li ul{
+	display: none;
+	position: absolute;
+	top: 40px;
+	left: 0px;
+}
+ul li:hover ul{
+	display: block;
+}
+ul li ul li{
+	height: 50px;
+	width: 180px;
+	float: none;
+	top: 20px;
+	text-align: left;
+	background-color: #f5f5f5;
+	border-bottom: 1px dotted #eaeaea;
+}
+
+
+#lgz{
+	float: left;
+	display:block;
+	height: 60px;
+	width: 120px;
+	margin-left: 0px;
+	position: relative;
+	text-align: center;
+	line-height: 60px;
+}
+#uni{
+	height: 50px;
+	width: 240px;
+	float: none;
+	top: 20px;
+	text-align: left;
+	
+}
+
+#rw_all{
+	margin-top: 10px;
+	margin-left: 20px;
+	height: 1424px;
+	width: 1200px;
+}
+#rw_all_left{
+	
+	height: 1424px;
+	width: 800px;
+	float: left;
+}
+#rw_all_right{
+	
+	height: 1424px;
+	width: 400px;
+	float: right;
+}
+#rw_im{
+	border-bottom: 1px solid #eaeaea;
+	height: 264px;
+	width: 800px;
+}
+#rw_im_left{
+	
+	height: 264px;
+	width: 300px;
+	float: left;
+}
+#rw_im_right{
+	padding-top: 30px;
+	height: 264px;
+	width: 500px;
+	float: right;
+}
+
+#rw_sm{
+	
+	height: 264px;
+	width: 800px;
+	margin-top: 2px;
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+#rw_sm_left{
+	
+	height: 264px;
+	width: 300px;
+	float: left;
+}
+#rw_sm_right{
+	margin-top: 10px;
+	height: 264px;
+	width: 500px;
+	float: right;
+}
+
+#rw_ca{
+	
+	height: 264px;
+	width: 800px;
+	margin-top: 2px;
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+#rw_ca_left{
+	
+	height: 264px;
+	width: 300px;
+	float: left;
+}
+#rw_ca_right{
+	margin-top: 5px;
+	height: 264px;
+	width: 500px;
+	float: right;
+}
+
+#rw_bw{
+	
+	height: 264px;
+	width: 800px;
+	margin-top: 2px;
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+#rw_bw_left{
+	
+	height: 264px;
+	width: 300px;
+	float: left;
+}
+#rw_bw_right{
+	margin-top: 0px;
+	height: 264px;
+	width: 500px;
+	float: right;
+}
+
+#rw_thor{
+	
+	height: 264px;
+	width: 800px;
+	margin-top: 2px;
+	border-bottom: 1px solid #eaeaea;
+	border-top: 1px solid #eaeaea;
+}
+#rw_thor_left{
+	
+	height: 264px;
+	width: 300px;
+	float: left;
+}
+#rw_thor_right{
+	margin-top: -15px;
+	height: 264px;
+	width: 500px;
+	float: right;
+}
+
+
+
+#rw_img{
+	height: 170px;
+	width: 220px;
+	margin-top: 40px;
+	margin-left: 30px;
+}
+
+#rw_a{
+	text-decoration: none; 
+	color: black; 
+	font-weight: bold;
+	font-family: 微软雅黑; 
+	font-size: 25px; 
+	margin-left: 0px; 
+	line-height: 50px;"
+	
+}
+
+#rw_word{
+	margin-top: 0px; 
+	margin-left: 0px; 
+	font-size: 17px;
+	font-family: 微软雅黑; 
+	letter-spacing: 2px; 
+	line-height: 1.3;"
+}
+
+tr{
+	
+	height: 40px;
+}
+td{
+	
+	font-size: 20px;
+}
+th{
+	border: 1px solid #c6c6c6;
+	font-size: 30px;
+	font-family: 微软雅黑;
+	height: 100px;
+	font-weight: bolder;
+	background-color: #ea2328;
+	color: white;
+}
+#tjgysx{
+	border: 1px solid #c6c6c6;
+	width: 310px;
+	margin-left: 70px;
+	
+}
+#first_tr{
+	
+	
+}
+#tr{
+	
+}
+#num{
+	width: 80px;
+	text-align: right;
+	border-right: 1px solid #c6c6c6;
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+}
+#num_name{
+	border-left: 1px solid #c6c6c6;
+	border-top: 1px solid #c6c6c6;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+
+#end{
+	background: #dddddd;
+	height: 50px;
+	width: 1260px;
+	margin-top: 5px;
+	text-align: center;
+	font-size: 10px;
+	line-height: 50px;
+}

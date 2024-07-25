@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Reg</title>
+		<link rel="stylesheet" href="css/logreg.css">
+		<script src="js/logreg.js"></script>
+	</head>
+	<body>
+		<table align="center" cellpadding="5px">
+			<tr>
+				<td>&nbsp;</td>
+				<td align="left">
+					用 户 注 册
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="right">用户名:</td>
+				<td>
+					<input type="text" id="username" autocomplete="off" placeholder="请输入用户名" style="color: black;">
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="right">密&nbsp;&nbsp;码:</td>
+				<td>
+					<input type="password" id="password" placeholder="请输入密码" >
+				</td>
+			</tr>
+			
+			<tr>
+				<td align="right">确认密码:</td>
+				<td>
+					<input type="password" id="repassword" placeholder="请确认密码" >
+				</td>
+			</tr>
+			
+			<tr>
+				<td>&nbsp;</td>
+				<td>
+					<input type="button" value="注册" id="reg" onclick="reg()">&nbsp;
+					<a href="log.html">登录</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
